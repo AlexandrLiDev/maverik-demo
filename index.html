@@ -8,7 +8,7 @@
 <meta name="description" content="Концепт сайта мастерской «Маверик» в Краснодаре: ключи, ремонт обуви и сумок, заточка. Демо, не официальный сайт.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Сайт для мастерской «Маверик»">
-<meta property="og:description" content="Ключ за 5 минут, обувь за день. Цены, цена по фото в WhatsApp и как найти вход.">
+<meta property="og:description" content="Ключ за 5 минут, обувь за день. Цены, цена по фото в MAX и как найти вход.">
 <meta property="og:image" content="https://alexandrlidev.github.io/maverik-demo/img/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -96,13 +96,13 @@ section{padding:56px 0}
 .steps{list-style:none;display:grid;gap:12px;margin:22px 0 26px}
 .steps li{display:flex;gap:12px;color:#e9e6de}
 .steps b{flex:none;width:28px;height:28px;border-radius:50%;background:var(--red);display:grid;place-items:center;font-size:14px}
-.chatbox{width:100%;max-width:320px;margin:0 auto;background:#ECE5DD;border-radius:28px;padding:12px;border:6px solid #2c2c2c;color:var(--ink)}
+.chatbox{width:100%;max-width:320px;margin:0 auto;background:#EEF1F7;border-radius:28px;padding:12px;border:6px solid #2c2c2c;color:var(--ink)}
 .chat-head{display:flex;align-items:center;gap:8px;background:#fff;border-radius:16px;padding:8px 10px;font-size:13px}
 .chat-head .av{width:30px;height:30px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;font-weight:800;font-size:11px;font-family:Unbounded}
 .chat{display:flex;flex-direction:column;gap:8px;padding:12px 2px;min-height:310px;font-size:13px}
 .msg{max-width:86%;padding:8px 11px;border-radius:12px;opacity:0;transform:translateY(6px);transition:all .35s}
 .msg.show{opacity:1;transform:none}
-.msg.me{align-self:flex-end;background:#D9FDD3}
+.msg.me{align-self:flex-end;background:#DCE6FF}
 .msg.them{align-self:flex-start;background:#fff}
 .msg .thumb{width:130px;height:96px;border-radius:8px;background:url(img/w-sneakers.jpg) center/cover;margin-bottom:6px}
 .replay{color:#a8a59d;font-size:13px;text-decoration:underline;margin-top:10px}
@@ -193,7 +193,7 @@ footer a{color:#fff}
   <nav class="links"><a href="#services">Услуги</a><a href="#photo">Цена по фото</a><a href="#works">Работы</a><a href="#find">Как найти</a></nav>
   <span class="sp"></span>
   <a class="phone" href="tel:+79892711936">+7 989 271-19-36</a>
-  <button class="btn btn-red btn-sm hdr-wa" data-wa>WhatsApp</button>
+  <button class="btn btn-red btn-sm hdr-wa" data-wa>Написать в MAX</button>
 </div></header>
 
 <main id="top">
@@ -237,17 +237,17 @@ footer a{color:#fff}
   <div>
     <span class="kicker">Цена по фото</span>
     <h2>Не знаете, можно ли починить? <mark>Пришлите фото.</mark></h2>
-    <p>Отклеилась подошва, сломалась молния на сумке, нужен такой же ключ. Сфотографируйте и отправьте в WhatsApp, мастер ответит, можно ли сделать, сколько стоит и когда будет готово.</p>
+    <p>Отклеилась подошва, сломалась молния на сумке, нужен такой же ключ. Сфотографируйте и отправьте в MAX, мастер ответит, можно ли сделать, сколько стоит и когда будет готово.</p>
     <ol class="steps">
-      <li><b>1</b><span>Нажмите кнопку, откроется WhatsApp мастерской.</span></li>
+      <li><b>1</b><span>Нажмите кнопку, откроется чат мастерской в MAX.</span></li>
       <li><b>2</b><span>Пришлите фото вещи или ключа.</span></li>
       <li><b>3</b><span>Получите цену и срок, приносите, когда удобно.</span></li>
     </ol>
-    <button class="btn btn-red" data-wa>Отправить фото в WhatsApp</button>
+    <button class="btn btn-red" data-wa>Отправить фото в MAX</button>
     <div><button class="replay" id="replay">Показать ещё раз, как это выглядит</button></div>
   </div>
   <div class="chatbox" aria-label="Пример переписки">
-    <div class="chat-head"><span class="av">MV</span><div><b>Мастерская Маверик</b><br><small style="color:#6B6862">WhatsApp</small></div></div>
+    <div class="chat-head"><span class="av">MV</span><div><b>Мастерская Маверик</b><br><small style="color:#6B6862">MAX</small></div></div>
     <div class="chat" id="chat">
       <div class="msg me"><div class="thumb"></div>Здравствуйте! Отклеилась подошва, можно спасти?</div>
       <div class="msg them">Здравствуйте! Да, переклеим и прошьём носок, будут как новые.</div>
@@ -313,7 +313,7 @@ footer a{color:#fff}
     <span class="logo" style="display:inline-flex"><small>МАСТЕРСКАЯ</small><b>МАВЕРИК</b></span>
     <p style="margin-top:14px;max-width:40ch">Ремонт обуви, сумок и рюкзаков, изготовление ключей и чипов, заточка ножей и ножниц, замена фурнитуры.</p>
   </div>
-  <div class="demo-box"><b>Это демо.</b> Сделано, чтобы показать идею: цены сразу на сайте, «цена по фото» в WhatsApp, маршрут до двери.<br><br>Александр Ли · <a href="https://t.me/DezmontDeXa" target="_blank" rel="noopener">@DezmontDeXa</a> · <a href="tel:+79147765705">+7 914 776-57-05</a></div>
+  <div class="demo-box"><b>Это демо.</b> Сделано, чтобы показать идею: цены сразу на сайте, «цена по фото» в MAX, маршрут до двери.<br><br>Александр Ли · <a href="https://t.me/DezmontDeXa" target="_blank" rel="noopener">@DezmontDeXa</a> · <a href="tel:+79147765705">+7 914 776-57-05</a></div>
 </div></footer>
 
 <nav class="mbar" aria-label="Быстрые действия">
@@ -346,7 +346,7 @@ const ov=$('#ov'),md=$('#md');
 function openModal(h){md.innerHTML='<button class="x" data-close aria-label="Закрыть"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6 6 18"/></svg></button>'+h;md.classList.add('show');ov.classList.add('show')}
 function closeAll(){md.classList.remove('show');ov.classList.remove('show')}
 ov.onclick=closeAll;md.addEventListener('click',e=>{if(e.target.closest('[data-close]'))closeAll()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeAll()});
-function waModal(){openModal(`<h3>WhatsApp мастерской</h3><p>В рабочей версии кнопка сразу открывает WhatsApp мастерской с готовым текстом «Здравствуйте! Хочу узнать цену, отправляю фото». Человеку остаётся прикрепить фото.</p><p style="margin-top:10px">В концепте переход отключён, чтобы мастерской не писали с демо-страницы.</p><button class="btn btn-red" style="margin-top:18px" data-close>Понятно</button>`)}
+function waModal(){openModal(`<h3>Чат мастерской в MAX</h3><p>В рабочей версии кнопка сразу открывает чат мастерской в MAX с готовым текстом «Здравствуйте! Хочу узнать цену, отправляю фото». Человеку остаётся прикрепить фото.</p><p style="margin-top:10px">В концепте переход отключён, чтобы мастерской не писали с демо-страницы.</p><button class="btn btn-red" style="margin-top:18px" data-close>Понятно</button>`)}
 document.addEventListener('click',e=>{if(e.target.closest('[data-wa]')){waModal();return}
   const b=e.target.closest('[data-svc]');if(!b)return;const s=SVC[b.dataset.svc];
   openModal(`<h3>${s.t}</h3><p>${s.d} Готово за ${s.time}.</p><div class="plist">${s.list.map(([a,p])=>`<div><span>${a}</span><b>${p}</b></div>`).join('')}</div><p style="margin-top:14px"><b style="color:#17171A">Что взять:</b> ${s.bring}</p><div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:18px"><button class="btn btn-red btn-sm" data-wa>Цена по фото</button><a class="btn btn-w btn-sm" href="#find" data-close>Как найти</a></div><p style="font-size:13px;margin-top:12px">Цены для примера.</p>`)});
